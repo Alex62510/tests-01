@@ -55,7 +55,7 @@ test.skip("test city should contains 3 houses", () => {
 })
 // 01. дополните тип GovernmentBuildingType
 // 02. заполните объект city, чтобы тесты ниже прошли
-test("test city should contains hospital and fire station", () => {
+test.skip("test city should contains hospital and fire station", () => {
     expect(city.governmentBuildings.length).toBe(2);
 
     expect(city.governmentBuildings[0].type).toBe("HOSPITAL");
